@@ -26,8 +26,7 @@
                   <td>작성자</td>
                   <td>시간</td>
                </tr>
-               <!-- request영역에 객체 바인딩을 했기 때문에 EL표현언어 사용해서 출력가능
-               		반복해서 보여주기 위해jstl사용해서 출력 -->
+
                <c:forEach items="${boardList}" var="board" varStatus="status">
                
                <tr>
