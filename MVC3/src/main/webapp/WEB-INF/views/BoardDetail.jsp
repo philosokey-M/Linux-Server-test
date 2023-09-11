@@ -39,7 +39,7 @@
                   </td>
                </tr>
                <tr>
-                  <td colspan="2"><a href="BoardMain.jsp"><button>뒤로가기</button></a></td>
+                  <td colspan="2"><a href="boardList.do"><button>뒤로가기</button></a></td>
                </tr>
             </table>
          </div>

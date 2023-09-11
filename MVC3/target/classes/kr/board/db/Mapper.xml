@@ -10,7 +10,7 @@
 </select>
 
 <insert id="insertBoard" parameterType="BoardDTO">
-	insert into web_board values(num_board.nextval, #{title}, #{writer}, 'filename', #{content}, sysdate)
+	insert into web_board(title, writer, filename, content,b_date) values(#{title}, #{writer}, 'filename', #{content}, sysdate())
 </insert>
 
 <select id="getBoardDetail" resultType="BoardDTO" parameterType="int">
